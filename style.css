@@ -1,0 +1,44 @@
+style.css
+h1 {
+  color: black;
+  font-size: 50px;
+  font-family: 'Arial', sans-serif;
+}
+
+h2 {
+  color: lightblue;
+  font-size: 30px;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  color: #76d7c4;
+  background-color: #e5e7e9;
+  font-family: 'Arial', sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.photo {
+  border-radius: 10%;
+  border: 15px solid lightblue;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  width: 600px;
+  margin: 20px auto;
+}
+
+.section{
+  background-color:white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  padding: 10px;
+}

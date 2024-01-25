@@ -6,14 +6,14 @@ h1 {
 }
 
 h2 {
-  color: lightblue;
+  color: #FF69B4;
   font-size: 30px;
   font-family: 'Arial', sans-serif;
 }
 
 body {
   color: #76d7c4;
-  background-color: #e5e7e9;
+  background-color: #98FB98;
   font-family: 'Arial', sans-serif;
   font-size: 15px;
   line-height: 1.8;
@@ -23,9 +23,12 @@ body {
 }
 
 .photo {
-  border-radius: 10%;
-  border: 15px solid lightblue;
+  border-radius: 50%;
+  height: 170px;
+  width: 170px;
 }
+
+
 
 .container {
   justify-content: center;
@@ -41,4 +44,13 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 15px;
   padding: 10px;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left:0px;
+}
+.list-inline i{
+  font-size: 90px;
+  color:#e5e7e9 ;
 }
